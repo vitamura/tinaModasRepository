@@ -1,0 +1,74 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+	justify-content: center;
+
+}
+.conteiner {
+	display:flex;
+    margin-left: auto;
+    position:relative; 
+    font-style: normal;
+    list-style:none;
+    float: flex;
+    font-family: sans-serif;
+    
+}
+.menu {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	float: flex;
+	display: flex;
+	align-items:initial;
+	list-style:none;
+	background-color:black; 
+	
+}
+
+nav ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	display: flex;
+}
+nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family:, sans-serif;
+}
+nav .ul a,
+nav a:hover {
+	background: blue;
+	width: 15%
+	height:30px;
+	align-content: normal;
+
+}
+.novidades {
+    font-family: monospace;
+	float:all;
+}
+.novidades li {
+	float:all;
+	display: flex;
+	flex-wrap: wrap;
+}	
+.link {
+	font-family: monospace;
+	background-color: black;
+	color: white;
+    position: absolute;
+    text-align: justify-all;
+}
